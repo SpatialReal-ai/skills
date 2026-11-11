@@ -1,0 +1,14 @@
+{
+  "name": "spatialreal",
+  "description": "Skills for building with SpatialReal realtime avatars and voice agents",
+  "owner": {
+    "name": "SpatialReal"
+  },
+  "plugins": [
+    {
+      "name": "spatialreal",
+      "source": "./plugins/spatialreal",
+      "description": "Integrate SpatialReal realtime 3D avatars and voice agents with the spatialreal CLI"
+    }
+  ]
+}
