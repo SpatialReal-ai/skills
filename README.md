@@ -70,6 +70,27 @@ Copy the two folders under [`skills/`](skills) to where your assistant reads ski
 - For your own app: a server that can keep an API key secret. The browser or mobile app never
   sees the key; it gets a short-lived session token from your server.
 
+## What the skills do on your machine
+
+The skills are instructions only: they contain no code, hooks or servers. Following them, your
+assistant may:
+
+- **Install the SpatialReal CLI** with `npm install -g @spatialreal/cli`, after asking you.
+- **Run the `spatialreal` command.** The CLI talks to the SpatialReal API
+  (`api.spatialreal.cloud`, and `agent.spatialreal.cloud` when it generates an agent) with a
+  token you approve in the browser. Through it your assistant can read your account (email,
+  apps, agents, avatars, usage, billing) and change it (create an app or an API key, create and
+  edit agents, embed links, a webhook). Deleting, spending and rotating a secret always wait for
+  your confirmation.
+- **Read documentation** from `docs.spatialreal.ai`.
+- **Write files in your project**: `.env` (your App ID and API key), `spatialreal.json`, agent
+  definition files, and the integration code you asked for. That code reads
+  `SPATIALREAL_API_KEY` on your server and sends it to `api.spatialreal.com` to get session
+  tokens; the key is never put in browser or mobile code.
+
+Nothing is sent anywhere else. What SpatialReal keeps is what is in your account; see the
+[privacy policy](https://www.spatialreal.ai/legal/privacy).
+
 ## Links
 
 - Documentation: https://docs.spatialreal.ai
