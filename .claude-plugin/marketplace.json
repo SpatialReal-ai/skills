@@ -7,8 +7,8 @@
   "plugins": [
     {
       "name": "spatialreal",
-      "source": "./plugins/spatialreal",
-      "description": "Integrate SpatialReal realtime 3D avatars and voice agents with the spatialreal CLI"
+      "source": "./",
+      "description": "Integrate SpatialReal realtime 3D avatars and voice agents into Web, iOS and Android apps, and manage the account with the spatialreal CLI"
     }
   ]
 }
