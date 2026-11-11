@@ -1,0 +1,46 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "spatialreal",
+  "version": "0.1.0",
+  "description": "Integrate SpatialReal realtime 3D avatars and voice agents into Web, iOS and Android apps, and manage the account with the spatialreal CLI",
+  "author": {
+    "name": "SpatialReal",
+    "url": "https://www.spatialreal.ai"
+  },
+  "homepage": "https://docs.spatialreal.ai",
+  "repository": "https://github.com/SpatialReal-ai/skills",
+  "license": "MIT",
+  "keywords": [
+    "avatar",
+    "voice-agent",
+    "realtime",
+    "3d",
+    "web",
+    "ios",
+    "android",
+    "cli"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "SpatialReal",
+        "shortDescription": "Realtime avatars and agents",
+        "longDescription": "SpatialReal renders photorealistic 3D avatars on the user's own device: audio goes in, and the avatar speaks it with matching face and body motion. This plugin teaches your coding agent to build with it. The spatialreal skill covers putting an avatar or a voice agent into a Web, iOS or Android app: which kind of session to use, the server endpoint that issues session tokens, the SDK code for each platform, and what to check before shipping. The spatialreal-cli skill covers managing your SpatialReal account from the terminal with the spatialreal command: signing in, linking a project and getting an API key, generating an agent from a description, editing agents as files, avatars, embed links, webhooks, usage and billing. The skills are instructions only. Following them, the agent may install the SpatialReal CLI (npm install -g @spatialreal/cli) after asking you, and use it with a login you approve in the browser.",
+        "developerName": "SpatialReal",
+        "category": "Developer Tools",
+        "capabilities": [],
+        "websiteURL": "https://www.spatialreal.ai",
+        "supportURL": "https://www.spatialreal.ai/contact",
+        "privacyPolicyURL": "https://www.spatialreal.ai/legal/privacy",
+        "termsOfServiceURL": "https://www.spatialreal.ai/legal/terms",
+        "defaultPrompt": [
+          "Add a SpatialReal avatar to this app",
+          "Build a SpatialReal video agent and embed it in my site"
+        ],
+        "brandColor": "#C2459A",
+        "composerIcon": "./assets/logo.svg",
+        "logo": "./assets/logo.svg"
+      }
+    }
+  }
+}
