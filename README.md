@@ -41,6 +41,13 @@ that was already running.
 /plugin install spatialreal@spatialreal
 ```
 
+### Codex plugin
+
+```bash
+codex plugin marketplace add SpatialReal-ai/skills
+codex plugin add spatialreal@spatialreal
+```
+
 ### Any assistant, with the `skills` installer
 
 ```bash

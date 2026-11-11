@@ -1,9 +1,23 @@
 {
   "name": "spatialreal",
+  "displayName": "SpatialReal",
   "description": "Integrate SpatialReal realtime 3D avatars and voice agents into Web, iOS and Android apps, and manage the account with the spatialreal CLI",
   "version": "0.1.0",
   "author": {
-    "name": "SpatialReal"
+    "name": "SpatialReal",
+    "url": "https://www.spatialreal.ai"
   },
-  "license": "MIT"
+  "homepage": "https://docs.spatialreal.ai",
+  "repository": "https://github.com/SpatialReal-ai/skills",
+  "license": "MIT",
+  "keywords": [
+    "avatar",
+    "voice-agent",
+    "realtime",
+    "3d",
+    "web",
+    "ios",
+    "android",
+    "cli"
+  ]
 }
