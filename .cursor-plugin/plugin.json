@@ -8,6 +8,10 @@
     "url": "https://www.spatialreal.ai"
   },
   "homepage": "https://docs.spatialreal.ai",
+  "documentationUrl": "https://docs.spatialreal.ai",
+  "supportUrl": "https://www.spatialreal.ai/contact",
+  "privacyPolicyUrl": "https://www.spatialreal.ai/legal/privacy",
+  "termsOfServiceUrl": "https://www.spatialreal.ai/legal/terms",
   "repository": "https://github.com/SpatialReal-ai/skills",
   "license": "MIT",
   "keywords": [
